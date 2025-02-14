@@ -1,0 +1,98 @@
+
+.country-header {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+  }
+
+  p {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+.filter-section {
+  margin-top: 1rem;
+  
+  .ant-select {
+    width: 100%;
+  }
+
+  .active-filters {
+    margin-top: 1rem;
+    
+    .filter-tag {
+      display: inline-block;
+      padding: 4px 12px;
+      background: #e6f4ff;
+      border: 1px solid #91caff;
+      border-radius: 16px;
+      color: #0958d9;
+      font-size: 0.9rem;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  background: #fff2f0;
+  border-radius: 8px;
+  color: #ff4d4f;
+  margin: 1rem 0;
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+.no-data {
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 8px;
+  color: #999;
+
+  i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+.loading-container{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .country-header {
+    padding: 1.5rem 0;
+    
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .filter-section {
+    .ant-space {
+      width: 100%;
+    }
+  }
+}
