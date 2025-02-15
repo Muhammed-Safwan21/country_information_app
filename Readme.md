@@ -77,6 +77,11 @@ npm install
 
 4. Start backend server:
 cd backend
+
+- ENV Setup
+PORT = 3050
+REST_COUNTRIES_API = 'https://restcountries.com/v3.1'
+
 npm run dev
 
 Server runs on http://localhost:5000 or 3050 from .env
